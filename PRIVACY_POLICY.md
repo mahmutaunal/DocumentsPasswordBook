@@ -39,8 +39,21 @@ No personal data is collected.
 
 ### 🔄 Backups
 
-- Backups are optional and **manually exported** by the user.
-- They are not automatically uploaded by the app.
+- Backups are optional. You can export them **manually** or enable **Auto Backup** (opt-in).
+- Auto Backup stores an **encrypted .pbook file locally** on your device (e.g., in Downloads or the app’s private storage, depending on your settings).
+- The app **never uploads** your backups anywhere. If you choose to move a backup to a cloud service, that is your choice and outside the app.
+
+### 🔔 Notifications
+
+- The app shows a foreground notification while a backup is running and a completion notice afterward.
+- These notifications are generated locally; **no data is transmitted**.
+
+### 🛂 Permissions (Optional Features)
+
+- **Notifications (Android 13+)**: To show backup progress/completion.
+- **Photos/Media/Storage or “Select a folder”**: To export/import backups using the system file picker (SAF).
+- **Camera / Photos**: For OCR and QR features; processing happens **on-device**.
+- **Microphone**: For voice input; processing happens **on-device**.
 
 ### 🔗 Third-Party Sharing
 
@@ -87,8 +100,21 @@ Kişisel veri toplanmaz.
 
 ### 🔄 Yedekleme
 
-- Yedekler **isteğe bağlı olarak manuel şekilde** dışa aktarılır.
-- Uygulama bu dosyaları hiçbir yere otomatik yüklemez.
+- Yedekleme isteğe bağlıdır. **Manuel** dışa aktarım yapabilir veya **Otomatik Yedekleme**yi (kullanıcı onayıyla) etkinleştirebilirsiniz.
+- Otomatik Yedekleme, **şifreli .pbook dosyasını cihazınıza yerel olarak** kaydeder (ayarlarınıza bağlı olarak İndirilenler klasörü veya uygulamanın özel dizini).
+- Uygulama **yedekleri hiçbir yere yüklemez**. Yedeği bir bulut servisine taşımanız sizin tercihinizdir ve uygulamanın dışında gerçekleşir.
+
+### 🔔 Bildirimler
+
+- Yedekleme çalışırken ön plan bildirimi ve işlem tamamlandığında bilgilendirme gösterilir.
+- Bu bildirimler yerel olarak oluşturulur; **herhangi bir veri iletilmez**.
+
+### 🛂 İzinler (İsteğe Bağlı Özellikler)
+
+- **Bildirimler (Android 13+)**: Yedekleme ilerlemesini/tamamlanmasını göstermek için.
+- **Fotoğraflar/Medya/Depolama veya “Klasör seç”**: Sistem dosya seçici (SAF) ile yedekleri dışa aktarmak/İçe aktarmak için.
+- **Kamera / Fotoğraflar**: OCR ve QR özellikleri için; işleme **cihaz üzerinde** yapılır.
+- **Mikrofon**: Sesle giriş için; işleme **cihaz üzerinde** yapılır.
 
 ### 🔗 Üçüncü Taraf Paylaşımı
 
@@ -101,4 +127,4 @@ Sorularınız için: **mahmutalperenunal@gmail.com**
 
 ---
 
-_Last updated / Son güncelleme: May 29, 2025_
+_Last updated / Son güncelleme: August 22, 2025_
